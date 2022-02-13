@@ -15,11 +15,16 @@ a {
   box-sizing: border-box;
 }
 
-div {
+form {
   width: 100vw;
   height: 100vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+input, button {
+  margin: 0.25rem;
 }
